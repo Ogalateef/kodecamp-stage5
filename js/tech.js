@@ -20,7 +20,7 @@ let gadgets = [
         price : "$180 - $302"
     },
     {
-        image : "Iphone",
+        image : "phone",
         item : "iphone",
         price : "$457 - $680"
     },
