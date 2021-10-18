@@ -1,0 +1,81 @@
+/* HEADER STYLING */
+
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("images/techtub-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  header.masthead .masthead-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: Helvetica, sans-serif;
+  }
+  header.masthead .masthead-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin-bottom: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading {
+      font-size: 2.25rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    header.masthead .masthead-heading {
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+}
+
+
+/* ABOUT STYLING */
+#about{
+    background-image: url("images/techtub-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+.about-text{
+  font-size: 2rem;
+  font-weight: 30%;
+  padding: 0 1rem;
+}
+
+/* GALLERY STYLING */
+.card-body h3 {
+  color: #140692;
+}
+
+/* FOOTER STYLING */
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  }
+
+  @media screen and (min-width:768px) {
+    #contact-foot{
+      height: 11rem;
+      margin-top: 1rem;
+    }
+  }
